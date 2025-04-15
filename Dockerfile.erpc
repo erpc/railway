@@ -1,2 +1,2 @@
-FROM ghcr.io/erpc/erpc:latest
+FROM ghcr.io/erpc/erpc:0.0.35
 CMD ["./erpc-server"]
