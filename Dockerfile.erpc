@@ -1,2 +1,3 @@
-FROM ghcr.io/erpc/erpc:0.0.35
+FROM ghcr.io/erpc/erpc:latest
+COPY erpc.yaml /root/erpc.yaml
 CMD ["./erpc-server"]
